@@ -17,4 +17,10 @@ public class AppTest {
     App classUnderTest = new App();
     assertEquals("Hello World!", classUnderTest.getGreeting());
     }
+
+    @test public static void main(String[] args) {
+        System.out.println(new App().getGreeting());
+        System.out.println(new App().getGreeting());
+        System.out.println(new App().getGreeting());
+    }
 }
